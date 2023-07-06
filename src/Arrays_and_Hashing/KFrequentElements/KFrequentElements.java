@@ -1,4 +1,4 @@
-package KFrequentElements;
+package Arrays_and_Hashing.KFrequentElements;
 
 import java.util.*;
 
@@ -15,8 +15,7 @@ public class KFrequentElements {
         // Get values and get frequency
         int[] value = new int[k];
         Map<Integer, Integer> numsFrequency = new HashMap<>();
-        for (int pickedNumber = 0; pickedNumber < nums.length; pickedNumber++) {
-            int number = nums[pickedNumber];
+        for (int number : nums) {
             numsFrequency.put(number, numsFrequency.getOrDefault(number, 0) + 1);
         }
 

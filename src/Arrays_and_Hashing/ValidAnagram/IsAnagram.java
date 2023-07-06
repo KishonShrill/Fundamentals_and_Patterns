@@ -1,3 +1,5 @@
+package Arrays_and_Hashing.ValidAnagram;
+
 class IsAnagram {
     public boolean isAnagram(String s, String t) {
         if(s.length() != t.length()) return false;

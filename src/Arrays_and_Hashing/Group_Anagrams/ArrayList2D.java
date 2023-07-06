@@ -1,32 +1,9 @@
+package Arrays_and_Hashing.Group_Anagrams;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class ArrayList2D {
-
-    /*
-    List<List<String>> groceryList = new ArrayList<>();
-        ArrayList<String> bakeryList = new ArrayList<>();
-        bakeryList.add("pasta");
-        bakeryList.add("garlic bread");
-        bakeryList.add("donuts");
-
-        ArrayList<String> produceList = new ArrayList<>();
-        produceList.add("tomatoes");
-        produceList.add("peppers");
-        produceList.add("zucchini");
-
-        ArrayList<String> drinksList = new ArrayList<>();
-        drinksList.add("soda");
-        drinksList.add("coffee");
-        drinksList.add("coke");
-
-    groceryList.add(bakeryList);
-    groceryList.add(produceList);
-    groceryList.add(drinksList);
-
-    System.out.println(groceryList);
-     */
-
     public static void main(String[] args) {
 
         List<List<String>> returnList = new ArrayList<>();
